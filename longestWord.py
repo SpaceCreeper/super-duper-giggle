@@ -1,6 +1,6 @@
 import re
 
-words = open("words/words.txt")
+words = open("words.txt")
 
 longestAcceptableWord = ""
 
