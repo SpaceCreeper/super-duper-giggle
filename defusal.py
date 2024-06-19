@@ -49,7 +49,7 @@ if (mode == "a"):
     elif z > 600:
         print("White")
 
-elif (mode = "b"):
+elif mode == "b":
     print("\nOn The Subject Of Timing...")
 
     light = input("Light: ")
