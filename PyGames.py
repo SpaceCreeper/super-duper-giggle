@@ -11,7 +11,7 @@ if(choice == 1):
     playerChoice = 0
 
     print("Welcome to Scissors, Paper and Stone!")
-
+    print("1 for Scissors, 2 for Paper, 3 for Stone.")
     print("Round " + roundCount)
 
     compChoice = random.randint(1, 3)
@@ -25,8 +25,10 @@ if(choice == 1):
     elif(compChoice == 3 and playerChoice == 3):
         print("It's a tie!")
 
-#Computer Wins
-    if(compChoice == 1 and playerChoice == 2):
+#Player Wins
+    if(compChoice == 1 and playerChoice == 3):
         print("Player has won!")
-    elif(compChoice == "thing" and playerChoice == "thing"):
+    elif(compChoice == 2 and playerChoice == 1):
+        print("Player has won!")
+    elif(compChoice == 3 and playerChoice == 2)
         print("Player has won!")
