@@ -32,3 +32,11 @@ if(choice == 1):
         print("Player has won!")
     elif(compChoice == 3 and playerChoice == 2)
         print("Player has won!")
+
+#Computer Wins
+    if(compChoice == 3 and playerChoice == 1):
+        print("Computer has won!")
+    elif(compChoice == 1 and playerChoice == 2):
+        print("Computer has won!")
+    elif(compChoice == 2 and playerChoice == 3)
+        print("Computer has won!")
