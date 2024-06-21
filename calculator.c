@@ -1,4 +1,6 @@
-#include "all.h"
+#include <stdio.h>
+#include <math.h>
+#include <cs50.h>
 
 void basicAdd();
 void basicSubtract();
